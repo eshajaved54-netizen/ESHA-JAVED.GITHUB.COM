@@ -1,0 +1,176 @@
+<!-- ================= HOME PAGE (index.html) ================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Desi Delights</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🔥 Desi Delights</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html">Cart</a>
+      <a href="order.html">Order Now</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Authentic Pakistani Taste</h2>
+    <p>Experience the richness of desi flavors</p>
+    <a href="shop.html" class="btn">Order Now</a>
+  </section>
+
+  <section class="gallery">
+    <h2>Our Special Dishes</h2>
+    <div class="images">
+      <img src="https://images.unsplash.com/photo-1604908176997-4312b5cfa5cf" alt="Biryani">
+      <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950" alt="Karahi">
+      <img src="https://images.unsplash.com/photo-1617191519105-d07b98b10de6" alt="BBQ">
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Desi Delights</p>
+  </footer>
+</body>
+</html>
+
+
+<!-- ================= SHOP PAGE (shop.html) ================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shop - Desi Delights</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🍽️ Our Menu</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html">Cart</a>
+      <a href="order.html">Order Now</a>
+    </nav>
+  </header>
+
+  <section class="menu">
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1604908176997-4312b5cfa5cf">
+      <h3>Biryani</h3>
+      <p>Rs. 500</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950">
+      <h3>Chicken Karahi</h3>
+      <p>Rs. 1200</p>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <img src="https://images.unsplash.com/photo-1617191519105-d07b98b10de6">
+      <h3>Seekh Kebab</h3>
+      <p>Rs. 400</p>
+      <button>Add to Cart</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Desi Delights</p>
+  </footer>
+</body>
+</html>
+
+
+<!-- ================= CART PAGE (cart.html) ================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🛒 Your Cart</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html">Cart</a>
+      <a href="order.html">Order Now</a>
+    </nav>
+  </header>
+
+  <section class="cart">
+    <p>Your delicious items will appear here 😋</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Desi Delights</p>
+  </footer>
+</body>
+</html>
+
+
+<!-- ================= ORDER PAGE (order.html) ================= -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order Now</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>📦 Place Your Order</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+      <a href="cart.html">Cart</a>
+      <a href="order.html">Order Now</a>
+    </nav>
+  </header>
+
+  <section class="order-form">
+    <form>
+      <input type="text" placeholder="Full Name" required>
+      <input type="text" placeholder="Delivery Address" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <button type="submit">Confirm Order</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Desi Delights</p>
+  </footer>
+</body>
+</html>
+
+
+<!-- ================= CSS FILE (style.css) ================= -->
+body {
+  margin: 0;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+  background: #fff5ee;
+}
+
+header {
+  background: linear-gradient(to right, #6b0000, #ff3c00);
+  color: white;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 34px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+nav
